@@ -1,0 +1,8 @@
+<div
+  class="container d-flex flex-column align-items-center p-5 bg-white border border-dark rounded"
+>
+  <h2>Counter: {{ count }}</h2>
+  <p *ngIf="negative" class="text-danger">
+    Il risultato non può essere minore di zero!
+  </p>
+</div>
